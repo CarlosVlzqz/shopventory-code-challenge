@@ -26,7 +26,9 @@ def get_account_ids_to_run(account_ids_list, minutes = 15):
 
     return(account_ids_to_return)
 
-# Trial list
-id_list = [number for number in range(1000, 1100, 1)]
-# Function call
-print(get_account_ids_to_run(id_list))
+
+if __name__ == '__main__':
+    # Trial list
+    id_list = [number for number in range(1000, 1200, 1)]
+    # Function call
+    print(get_account_ids_to_run(id_list))
